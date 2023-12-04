@@ -8,6 +8,7 @@ include("../src/lib.jl")
 pqr3stu8vwx
 a1b2c3d4e5f
 treb7uchet"""
+
     lines = [String(line) for line in split(input, "\n")]
     @test f1(lines) == 142
 end
@@ -21,6 +22,7 @@ xtwone3four
 4nineeightseven2
 zoneight234
 7pqrstsixteen"""
+
     lines = [String(line) for line in split(input, "\n")]
     @test f2(lines) == 281
 end

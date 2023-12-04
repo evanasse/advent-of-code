@@ -1,7 +1,7 @@
-function f1()
+function f1(lines::Vector{String})
     false
 end
 
-function f2()
+function f2(lines::Vector{String})
     false
 end
